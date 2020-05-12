@@ -4,20 +4,20 @@
 	<title>Delani Studio</title>
 	<meta charset="UTF-8">
 	<meta name="viewreport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 	<!--landing page section-->
 	<center>
-		<div id="landing-page" style="background-image:url(/images/backgrounds/h_img.jpg)">
-			<p id="landing">
-				<img src="images/Logo/logo.png" alt="logo">
-					<h1>WELCOME <br> TO DELANI STUDIO </h1> 
-						AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT
+		<div class="landing-page">
+			<img src="images/Logo/logo.png" alt="logo">
+				<h1>WELCOME <br> TO DELANI STUDIO </h1> 
+						<P>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</P>
 			</center>
-		</p>
 	</div>
+
 	<!--About us section-->
-	<div>
+	<div class="About">
 		<center>
 			<h1>ABOUT US</h1>
 			<p>
@@ -28,9 +28,11 @@
 			</p>
 		</center>
 	</div>
-	<!--servics section-->
-	<div style="background:images/backgrounds/s_image.jpg);">
+
+	<!--services section-->
+	<div class="services">
 		<center>
+			<img src="">
 			<h1>SERVICES</h1>
 				<P>
 					Before we sign a contract or write a line of code, our team will spend the neccessary time needed to understand your product vission.<br><br>
@@ -39,17 +41,41 @@
 				</P>
 		</center>
 	</div>
+
 	<!--what we do section-->
-	<div id="what-we-do" >
-		<center>
-			<h1>WHAT WE DO</h1>	
-				<left><img src="images/services_icons/design_icon.png" alt="Design Icon"></left>
-				<img src="images/services_icons/dev_icon.png" alt="Development Icon">
-				<right><img src="images/services_icons/product_icon.png" alt="product Icon"></right>
-		</center>
+	      <div id="design-image">
+          <img src="images/services_icons/design_icon.png" alt="design">
+          <p>DESIGN</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div id="development">
+          <h2 class="title">DEVELOPMENT</h2>
+          <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+             <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+        </div>
+        <div id="development-image">
+          <img src="images/services_icons/dev_icon.png" alt="development">
+          <P>DEVELOPMENT</P>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div id="product">
+          <h2 class="title">PRODUCT MANAGEMENT</h2>
+          <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+          <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+        </div>
+        <div id="product-image">
+          <img src="images/services_icons/product_icon.png" alt="products">
+          <P>PRODUCT MANAGEMENT</P>
+        </div>
+      </div>
+    </div>
+  </div>
 	</div>
+
 	<!--portfolio section-->
-	<div id="portfolio">
+	<div class="portfolio">
 		<h1>PORTFOLIO</h1>
 			<img src="images/portfolio/work4.jpg">
 			<img src="images/portfolio/work3.jpg">
@@ -60,16 +86,16 @@
 			<img src="images/portfolio/work7.jpg">
 			<img src="images/portfolio/work8.jpg">
 	</div>
+
 	<!--contact us section-->
-	
-	<div id="contact-us" style="background-image:url(/images/backgrounds/c_image.jpg);">
+	<div class="contact-us">
 		<center>
 			<h1>CONTACT US</h1>
 		</center>
 	</div>
 
 	<!--socials section-->
-	<div id="socials">
+	<div class="socials">
 
 		<center>
 			<img src="images/social_icons/twitter.png" alt="Twitter Icon">
