@@ -4,7 +4,7 @@
 
 This is a virtual web application that displays the services offered by Delani Studio.This is based on the fact that our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
 
-## AUTHORS(S) INFORMATION
+## AUTHOR(S) INFORMATION
 
 Author at : Hosana Joshua. A front end developer currently studying web Development. Check out my Portfolio at :https://joshua-254.github.io/project./
 
@@ -24,7 +24,8 @@ The link to this live site is given at the end of this documentation.
 ## DEPENDENCIES
 
 This web application is highly flexible in in paforms such as Chrome, Firefox and opera browser to menton but a few.
-##T ECHNOLOGIES USED
+
+## TECHNOLOGIES USED
 
 *Terminal
 *HTML(Herper Text Markup Language)
