@@ -3,10 +3,24 @@ h1{
 }
 .landing-page {
 	background-image: url("../images/backgrounds/h_img.jpg");
+	background-size: 100% 100%;
 }
 .services {
 	background-image: url("../images/backgrounds/s_image.jpg");
+	background-size: 100% 100%;
 }
 .contact-us {
 	background-image: url("../images/backgrounds/c_image.jpg");
+	background-size: 100% 100%;
+}
+.portfolio {
+  flex-wrap: wrap;
+}
+
+div{
+	 background-position: 0px 85px;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
 }
