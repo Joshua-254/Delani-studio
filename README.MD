@@ -27,13 +27,14 @@ This web application is highly flexible in in paforms such as Chrome, Firefox an
 
 ## TECHNOLOGIES USED
 
-*Terminal
-*HTML(Herper Text Markup Language)
-*CSS(Cascading Style Sheets)
-*Javascript
-*Bootsrtap
-*Jquery
-##CONTACT INFORMATION
+* Terminal
+* HTML(Herper Text Markup Language)
+* CSS(Cascading Style Sheets)
+* Javascript
+* Bootsrtap
+* Jquery
+
+## CONTACT INFORMATION
 
 All parties are welcome fo any contribtions or corrections at the following email.
 hosanajoshua@gmail.com
