@@ -1,3 +1,12 @@
 h1{
 	text-align:center;
 }
+.landing-page {
+	background-image: url("../images/backgrounds/h_img.jpg");
+}
+.services {
+	background-image: url("../images/backgrounds/s_image.jpg");
+}
+.contact-us {
+	background-image: url("../images/backgrounds/c_image.jpg");
+}
