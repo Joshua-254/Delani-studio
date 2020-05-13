@@ -1,3 +1,5 @@
+// messaging section
+
 $(document).ready(function(){
   $("form#contact-us").submit(function(event){
     var name = $("input#MERGE1").val();
@@ -16,16 +18,6 @@ $(document).ready(function(){
 
 });
 
-$(document).ready(function(){
-  $("#development-image").click(function(){
-    $("#development-image").slideDown('1000').hide('1000');
-    $("#development").show('1000');
-  });
-  $("#development").click(function(){
-    $("#development").slideUp('1000');
-    $("#development-image").slideDown('1000');
-  });
-});
 
 // toggle section
 
