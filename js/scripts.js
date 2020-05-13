@@ -23,7 +23,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("#design").click(function(){
-    $("#p_design").toggle(250);
+    $("#p_design").toggle(200);
   });
   });
 $(document).ready(function(){
@@ -33,6 +33,6 @@ $(document).ready(function(){
     });
 $(document).ready(function(){
       $("#production").click(function(){
-        $("#p_production").toggle(150);
+        $("#p_production").toggle(200);
       });
       });
