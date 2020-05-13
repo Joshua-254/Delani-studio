@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $("form#form34A").submit(function(event){
+  $("form#contact-us").submit(function(event){
     // event.preventDefault();
     var name = $("input#MERGE1").val();
     var email = $("input#MERGE0").val();
