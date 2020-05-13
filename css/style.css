@@ -79,3 +79,14 @@ margin-left: 20%;
 padding-bottom: 30px;
 margin-right: 30%;
 }
+
+#product, #development, #design{
+display: none;
+font-size: 16px;
+}
+#product .title, #development .title, #design .title{
+font-size: 20px;
+font-weight: 600;
+
+
+
