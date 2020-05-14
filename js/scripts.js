@@ -23,16 +23,16 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("#design").click(function(){
-    $("#p_design").toggle(200);
+    $("#p_design").toggle(50);
   });
   });
 $(document).ready(function(){
     $("#development").click(function(){
-      $("#p_development").toggle(200);
+      $("#p_development").toggle(50);
     });
     });
 $(document).ready(function(){
       $("#production").click(function(){
-        $("#p_production").toggle(200);
+        $("#p_production").toggle(50);
       });
       });
