@@ -6,7 +6,7 @@ $(document).ready(function(){
     var email = $("input#Email").val();
     var message = $("textarea#message").val();
     if ($("input#name").val() && $("input#email").val()){
-      alert (name + ", we have received your message. Thank you for reaching out to us.");
+      alert ("Hello, we have received your message. Thank you for reaching out to us.");
     }
     else {
       alert("Please enter your name and email!");
